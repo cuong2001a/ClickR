@@ -1,0 +1,23 @@
+{
+  "name": "ClickR",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --watch style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuong2001a/ClickR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuong2001a/ClickR/issues"
+  },
+  "homepage": "https://github.com/cuong2001a/ClickR#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

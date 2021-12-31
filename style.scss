@@ -1,0 +1,85 @@
+@import 'text';
+@import 'img';
+.container{
+    max-width: 1795px;
+    margin: auto;
+}
+body{
+    background: #E5E5E5;
+}
+nav{
+    height: 105px;
+    width: 100%;
+    background-color: #ffff;
+}
+input.input-search{
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+    padding: 18px 0 16px 32px;
+    border: 1px solid #E2E6E8;
+}
+.btn-search{
+    height: 50px;
+    width: 50px;
+    top: 0;
+    right: 0px;
+    border: none;
+    background: none;
+}
+ul li{
+    margin: 0 14.5px;
+    .user_info{
+        margin-right: 20px;
+        margin-left: 14px;
+    }
+}
+.content{
+    margin: 25px 0;
+}
+.card{
+    padding: 38px 34px;
+    border-radius: 5px;
+    h5:first-child{
+        margin-bottom: 37px;
+    }
+    div.match-center{
+        margin-bottom: 55px;
+    }
+}
+img.img-team{
+    width: 62px;
+    height: 62px;
+    object-fit: cover;
+}
+.box-list{
+    h5{
+        margin-bottom: 34px;
+    }
+    .team-rank{
+    margin-bottom: 22px;
+        img.logo{
+            width: 45px;
+            height: 45px;
+            object-fit: cover;
+        }
+    }
+}
+.highlight{
+    background: #007330;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 100%;
+    height: 335px;
+    position: relative;
+    .elipse{
+        background-color: #007B34;
+        width: 250px;
+        height: 335px;
+        border-radius: 1000px 5px 5px 0px;
+        position: absolute;
+        right: 0;
+    }
+    
+}
+

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="root">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-0 justify-content-center">
+                <div class="row w-100 d-flex align-items-center">
+                    <!-- menu -->
+                    <div class="col-4 px-0">
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link text-18 fw-500" href="#">Matches</a>
+                                <a class="nav-link text-18 fw-500" href="#">Live Score</a>
+                                <a class="nav-link text-18 fw-500" href="#">Statistics</a>
+                                <a class="nav-link text-18 fw-500">Analytics</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- menu -->
+                    <div class="col-4 px-0">
+                        <form action="" class="position-relative">
+                            <input type="text" placeholder="User name" class="input-search text-14 fw-400 text-input">
+                            <button class="btn-search position-absolute"><i
+                                    class="fas fa-search text-input"></i></button>
+                        </form>
+                    </div>
+                    <div class="col-4 px-0">
+                        <div class="profile">
+                            <ul class="d-flex mb-0 align-items-center justify-content-end">
+                                <li><span><i class="far fa-bell fs-5"></i></span></li>
+                                <li><span><i class="far fa-envelope fs-5"></i></span></li>
+                                <li><span><i class="far fa-heart fs-5"></i></span></li>
+                                <li>
+                                    <div class="dropdown">
+                                        <div class="d-flex flex-row align-items-center dropdown-toggle text-content"
+                                            id="user_info" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="user_img">
+                                                <img src="./img/Ellipse 1.png" alt="">
+                                            </div>
+                                            <div class="user_info d-flex flex-column">
+                                                <p class="mb-0 text-18 fw-500 text-content">Jane Doe</p>
+                                                <p class="mb-0 fw-400 text-13 text-content">Football player</p>
+                                            </div>
+                                        </div>
+                                        <ul class="dropdown-menu" aria-labelledby="user_info">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <section class="content">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card bg-white">
+                            <div>
+                                <h5 class="text-18 fw-500 text-title">Live Matches</h5>
+                                <div class="d-flex justify-content-between align-items-center match-center">
+                                    <img src="./img/unnamed 1 (1).png" class="img-team" alt="">
+                                    <span>4 &nbsp;&nbsp;: &nbsp;&nbsp;3</span>
+                                    <img src="./img/Ellipse 4 (3).png" class="img-team" alt="">
+                                </div>
+                                <div class="box-list">
+                                    <h5 class="text-18 fw-500 text-title">Teams</h5>
+                                    <div class="d-flex justify-content-between align-items-center team-rank">
+                                        <div>
+                                            <img src="./img/Ellipse 4.png" class="img-logo" alt="">
+                                            <span class="text-17 fw-400 text-content">Tigers VI</span>
+                                        </div>
+                                        <span class="text-13 fw-400 text-profile">See Profile <i
+                                                class="fas fa-arrow-right"></i></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center team-rank">
+                                        <div>
+                                            <img src="./img/Ellipse 4.png" class="img-logo" alt="">
+                                            <span class="text-17 fw-400 text-content">Tigers VI</span>
+                                        </div>
+                                        <span class="text-13 fw-400 text-profile"><i class="far fa-chart-bar fs-5"></i></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center team-rank">
+                                        <div>
+                                            <img src="./img/Ellipse 4.png" class="img-logo" alt="">
+                                            <span class="text-17 fw-400 text-content">Tigers VI</span>
+                                        </div>
+                                        <span class="text-13 fw-400 text-profile"><i class="far fa-chart-bar fs-5"></i></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center team-rank">
+                                        <div>
+                                            <img src="./img/Ellipse 4.png" class="img-logo" alt="">
+                                            <span class="text-17 fw-400 text-content">Tigers VI</span>
+                                        </div>
+                                        <span class="text-13 fw-400 text-profile"><i class="far fa-chart-bar fs-5"></i></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center team-rank">
+                                        <div>
+                                            <img src="./img/Ellipse 4.png" class="img-logo" alt="">
+                                            <span class="text-17 fw-400 text-content">Tigers VI</span>
+                                        </div>
+                                        <span class="text-13 fw-400 text-profile"><i class="far fa-chart-bar fs-5"></i></span>
+                                    </div>
+                                </div>
+                                <div class="box-list">
+                                    <h5 class="text-18 fw-500 text-title">Best Player</h5>
+                                    <div class="d-flex justify-content-between align-items-center team-rank">
+                                        <div>
+                                            <img src="./img/Ellipse 4 (5).png" class="img-logo" alt="">
+                                            <span class="text-17 fw-400 text-content">John Smith</span>
+                                        </div>
+                                        <span class="text-13 fw-400 text-profile">18
+                                            <img src="./img/goal 1.png" class="m-1 fs-6" alt="">
+                                        </span>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center team-rank">
+                                        <div>
+                                            <img src="./img/Ellipse 4 (5).png" class="img-logo" alt="">
+                                            <span class="text-17 fw-400 text-content">John Smith</span>
+                                        </div>
+                                        <span class="text-13 fw-400 text-profile">18
+                                            <img src="./img/goal 1.png" class="m-1 fs-6" alt="">
+                                        </span>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center team-rank">
+                                        <div>
+                                            <img src="./img/Ellipse 4 (5).png" class="img-logo" alt="">
+                                            <span class="text-17 fw-400 text-content">John Smith</span>
+                                        </div>
+                                        <span class="text-13 fw-400 text-profile">18
+                                            <img src="./img/goal 1.png" class="m-1 fs-6" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="highlight">
+                            <span class="elipse"></span>
+                            <div class="row">
+                                <div class="col-5">
+                                    <img src="./img/Untitled-1 1.png" class="player-img" alt="">
+                                </div>
+                                <div class="col-7">
+                                    2
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-3">3</div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</html>
